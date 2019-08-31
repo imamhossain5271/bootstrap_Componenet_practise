@@ -1,0 +1,27 @@
+.slider{
+	background-image: url(../images/minimo_m.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+     background-size:cover; 	
+}
+
+
+.carousel-control-next-icon{
+   background-color: red;
+}
+
+.car_ind{
+	bottom:5px;
+}
+.car_ind li{
+   width:15px;
+   height: 15px;
+   border-radius:50%;
+   background-color: #000;
+
+}
+.car_ind .active{
+	background-color: red;
+}
